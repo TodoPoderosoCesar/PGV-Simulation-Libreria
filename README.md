@@ -1,18 +1,21 @@
-## Getting Started
+# PGV-Simulation-Libreria
+Este proyecto es una actividad para el curso DAM, sobre un simulador productor-consumidor usando hilos.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción del proyecto
+- Empresa / tipo: Librería local.
+- Productos: Lápices, libretas, bolígrafos, gomas, reglas.
+- Productores: Editoriales/fabricantes que proveen artículos (simulados por hilos Productor).
+- Consumidores: Clientes o la tienda que compra/procesa artículos (hilos Consumidor).
+- Recurso compartido: Tienda con capacidad limitada.
 
-## Folder Structure
+## Estructura
+- Producto -> representación de un producto.
+- Tienda -> recurso compartido con sincronización (wait/notifyAll).
+- Productor -> hilo productor.
+- Consumidor -> hilo consumidor.
+- App -> punto de entrada con configuración de ejemplo.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Experimentos sugeridos (ramas)
+- experimento-uno: 1 productor, 1 consumidor, 5 productos.
+- experimento-dos: reducir tiempos de producción.
+- experimento-tres: aumentar prioridad de productores.
