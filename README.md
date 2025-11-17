@@ -33,4 +33,10 @@ En la captura solo cambiamos el tiempo que se toma el productor en crear un prod
 
 - experimento-tres: aumentar prioridad de productores.
 
+Captura del codigo:
+![Captura del codigo cambiado](<img/experimento3codigo.png>)
 
+Captura de la consola:
+![Captura de la consola](<img/experimento3consola.png>)
+
+Vemos que se producen mucho mas rapido de lo que se consume...
