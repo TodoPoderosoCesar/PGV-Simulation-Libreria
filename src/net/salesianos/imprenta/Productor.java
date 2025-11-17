@@ -18,7 +18,7 @@ public class Productor extends Thread {
     public void run() {
         try {
             for (int i = 1; i <= cantidad; i++) {
-                int tiempo = (int) (Math.random() * 1000 + 300);
+                int tiempo = (int) (Math.random() * 200 + 50);
                 Thread.sleep(tiempo);
 
                 String tipo = tiposPosibles[(int)(Math.random() * tiposPosibles.length)];
