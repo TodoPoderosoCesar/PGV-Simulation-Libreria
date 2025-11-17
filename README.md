@@ -15,7 +15,16 @@ Este proyecto es una actividad para el curso DAM, sobre un simulador productor-c
 - Consumidor -> hilo consumidor.
 - App -> punto de entrada con configuración de ejemplo.
 
-## Experimentos sugeridos (ramas)
+## Experimentos:
 - experimento-uno: 1 productor, 1 consumidor, 5 productos.
+
+Captura del código:
+![captura codigo exp1](<img/experimento1codigo.png>)
+
+Captura de la consola:
+![Captura consola exp1](<img/experimento1consola.png>)
+
 - experimento-dos: reducir tiempos de producción.
+
+
 - experimento-tres: aumentar prioridad de productores.
