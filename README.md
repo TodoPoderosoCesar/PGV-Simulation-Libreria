@@ -26,5 +26,11 @@ Captura de la consola:
 
 - experimento-dos: reducir tiempos de producción.
 
+Captura del codigo:
+![captura del codigo cambiado](<img/experimento2codigo.png>)
+
+En la captura solo cambiamos el tiempo que se toma el productor en crear un producto y por consola solo nos percatamos (y muy ligeramente) de que se consume más rápido de lo que se produce.
 
 - experimento-tres: aumentar prioridad de productores.
+
+
